@@ -11,7 +11,7 @@ if ($total>90){
 }elseif($total>=60){
     echo "$nama, anda mendapatkan nilai kurang bagus :".$total;
 }elseif($total>=40){
-    echo "$nama, anda mendapatkan nilai jelek";
+    echo "$nama, anda mendapatkan nilai jelek".$total;
 }else {
     echo "$nama nilai anda jelek harap mengulang kembali";
 }
